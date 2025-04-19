@@ -1,0 +1,16 @@
+p {
+    /* background-color: bisque; */
+    color: brown;
+}
+h1 {
+    background-color: aliceblue;
+    color: blue;
+}
+#step {
+    background-color: antiquewhite; 
+    color: rgb(39, 29, 16);
+}
+.step2 {
+    background-color: aqua;
+    color: brown;
+}
