@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        * {
+            margin: 0px;
+        }
+
+        div.section1 {
+            background-color: antiquewhite;
+            float: left;
+            width: 270px;
+            height: 450px;
+            text-align: center;
+        }
+
+        div.section2 {
+            background-color: rgba(148, 97, 35, 0.349);
+            float: left;
+            width: 270px;
+            height: 450px;
+            text-align: center;
+
+        }
+
+        div.section3 {
+            background-color: darkgrey;
+            float: left;
+            width: 270px;
+            height: 450px;
+            text-align: center;
+        }
+
+        div.section4 {
+            background-color: rgba(58, 145, 204, 0.801);
+            float: left;
+            width: 270px;
+            height: 450px;
+            text-align: center;
+        }
+
+        div.section5 {
+            background-color: rgba(189, 183, 160, 0.582);
+            float: left;
+            width: 270px;
+            height: 450px;
+            text-align: center;
+        }
+
+        p.scroll {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(230, 222, 222);
+            overflow: scroll;
+            float: left;
+            margin: 10px 0px;
+        }
+
+        p.hidden {
+            width: 200px;
+            height: 200px;
+            background-color: rgba(63, 36, 160, 0.336);
+            overflow: hidden;
+            float: left;
+            margin: 10px 5px;
+
+        }
+    #main{
+        background-color: azure;
+        display: flex;
+        width: 600px;
+        height: auto;
+        justify-content: flex-end;
+    }
+    #main div{
+        width: 100px;
+        height: 100px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="section1">
+        <h1>this is section one</h1>
+        <img src="floating_image.jpg" alt="" style="width: 270px;">
+    </div>
+
+    <div class="section2">
+        <h1>this is section two</h1>
+        <img src="floating_image.jpg" alt="" style="width: 270px;">
+
+    </div>
+
+    <div class="section3">
+        <h1>this is section three</h1>
+        <img src="floating_image.jpg" alt="" style="width: 270px;">
+
+    </div>
+
+    <div class="section4">
+        <h1>this is section four</h1>
+        <img src="floating_image.jpg" alt="" style="width: 270px;">
+
+    </div>
+
+    <div class="section5">
+        <h1>this is section five</h1>
+        <img src="floating_image.jpg" alt="" style="width: 270px;">
+
+    </div>
+    <div style="clear: both;"></div>
+    <p class="scroll">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum rerum exercitationem debitis sunt optio
+        vel architecto inventore omnis vitae eos laborum, nobis explicabo, asperiores repellendus eligendi aliquam
+        itaque beatae, excepturi odit porro quae! Eius culpa itaque deserunt, dolore voluptatibus iste dignissimos,
+        tempore libero exercitationem explicabo voluptate aspernatur nam blanditiis adipisci architecto? Cupiditate,
+        blanditiis, perspiciatis cum ullam sit quis culpa omnis natus reprehenderit iste doloribus laudantium, qui
+        tempora ex quaerat vel. Alias omnis commodi beatae nesciunt ut deserunt natus. Molestias dolor distinctio sint
+        voluptates iusto sed necessitatibus, repudiandae temporibus quidem laborum reprehenderit, neque ea dolorum saepe
+        quasi magni perspiciatis alias!
+    </p>
+    <p class="hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum rerum exercitationem debitis sunt optio
+        vel architecto inventore omnis vitae eos laborum, nobis explicabo, asperiores repellendus eligendi aliquam
+        itaque beatae, excepturi odit porro quae! Eius culpa itaque deserunt, dolore voluptatibus iste dignissimos,
+        tempore libero exercitationem explicabo voluptate aspernatur nam blanditiis adipisci architecto? Cupiditate,
+        blanditiis, perspiciatis cum ullam sit quis culpa omnis natus reprehenderit iste doloribus laudantium, qui
+        tempora ex quaerat vel. Alias omnis commodi beatae nesciunt ut deserunt natus. Molestias dolor distinctio sint
+        voluptates iusto sed necessitatibus, repudiandae temporibus quidem laborum reprehenderit, neque ea dolorum saepe
+        quasi magni perspiciatis alias!
+    </p>
+    <div style="clear: both;"></div>
+    <div id="main"> 
+        <div style="background-color: rgb(92, 212, 22);">1</div>
+        <div style="background-color: rgb(199, 162, 114);">2</div>
+        <div style="background-color: rgba(20, 18, 131, 0.534);">3</div>
+    </div>
+</body>
+
+</html>
