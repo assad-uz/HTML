@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th,
+        td {
+            padding: 9px;
+        }
+
+        .box {
+            width: 70%;
+            height: 40px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table border="5">
+            <tr>
+                <th colspan="3">
+                    <h3>Registration Form</h3>
+                </th>
+            </tr>
+            <tr>
+                <td>Enter Name</td>
+                <td colspan="2">
+                    <input type="text" class="box" placeholder="enter your name">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td colspan="2">
+                    <input type="password" class="box" placeholder="enter password">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Address</td>
+                <td colspan="2">
+                    <textarea name="" id="" class="box" placeholder="enter your address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Game</td>
+                <td style="line-height: 1.9;">
+                    <input type="checkbox">Cricket<br>
+                    <input type="checkbox">Football<br>
+                    <input type="checkbox">Badminton<br>
+                    <input type="checkbox">Hockey<br>
+                    <input type="checkbox">Volleyball<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td colspan="2">
+                    <input type="radio" name="a">Male
+                    <input type="radio" name="a">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Select your age</td>
+                <td colspan="2">
+                    <select name="" id="">
+                        <option value="">Select</option>
+                        <option value="">25</option>
+                        <option value="">26</option>
+                        <option value="">27</option>
+                        <option value="">28</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Photo</td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <input type="submit" value="Submit Form">
+                    &nbsp; &nbsp;
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
